@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* offer msg */
+.offermsg{
+    padding: 5px;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    gap: 20%;
+    justify-content: center;
+    background-color: #1D232C;
+    color: #DEDDDD;
+    font-size: 20px;
+}
+#xoffermsg{
+    cursor: pointer;
+}
+
+/* main navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* sidenavbar */
+.sidenav{
+    width: 50%;
+    height: 100vw;
+    background-color: #1D232C;
+    color: #DEDDDD;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    transition-duration: 2s;
+    padding: 20px;
+    left: 0;
+    display: none;
+}
+#xmark{
+    cursor: pointer;
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/*Slider*/
+
+ .slider{
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    position: relative;
+    border-radius: 5px;
+
+} 
+.slider-image-container{
+    display: flex;
+    transition-duration: 2s;
+}
+.slider-image{
+    width: 100vw;
+}
+.slider-left-button{
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    z-index: 1;
+}
+.slider-left-button i{
+    font-size: 10vw;
+}
+.slider-right-button{
+    position: absolute;
+    top: 35%;
+    right: 5%;
+}
+.slider-right-button i{
+    font-size: 10vw;
+}
+.slider-content{
+    position: absolute;
+    color: white;
+    text-align: center;
+    width: 100%;
+    top: 20%;
+}
+.slider-content h1{
+    font-size: 5vw;
+    font-weight: bold;
+}
+.slider-content button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    color: #1D232C;
+    background-color: #E5E5E5;
+    border-radius: 5px;
+}
+
+
+/* 
+
+
+
+
+.slider-content button{
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   margin-top: 10px;
+   color: #1D232C;
+} */
