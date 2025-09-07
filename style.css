@@ -78,6 +78,7 @@ body {
 }
 .slider-image{
     width: 100vw;
+    /* height: 50vw; */
 }
 .slider-left-button{
     position: absolute;
@@ -118,17 +119,16 @@ body {
     border-radius: 5px;
 }
 
+/* brands */
+.brands{
+    display: flex;
+    margin-top: 2vw;
+    justify-content: space-between;
+}
 
-/* 
-
-
-
-
-.slider-content button{
-   padding-left: 20px;
-   padding-right: 20px;
-   padding-top: 10px;
-   padding-bottom: 10px;
-   margin-top: 10px;
-   color: #1D232C;
-} */
+.brands-icon{
+    width: 4vw;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
