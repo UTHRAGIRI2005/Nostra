@@ -1,0 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* offer message */
+.offer {
+    background-color: #1D232C;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding: 10px;
+    align-items: center;
+    font-size: 2vw;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+
+}
+
+.navbar__menu-details {
+    display: flex;
+    gap: 30px;
+}
+
+.navbar__menu-details a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar__menu-details p:hover {
+    text-decoration: underline;
+}
+
+/* side navbar */
+
+#menu {
+    cursor: pointer;
+    display: none;
+}
+
+.sidenavbar{
+    background-color: #1D232C;
+    color: white;
+    width: 40%;
+    height: 300vw;
+    position: absolute;
+    top: 0;
+    z-index: 20;
+    padding: 20px;
+    display: none;
+}
+.sidenavbar__menu-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.sidenavbar__menu-details a{
+    text-decoration: none;
+     color: white;
+}
+.sidenavbar__menu-details p:hover{
+    text-decoration: underline;
+}
+/* news letter section  */
+
+.newletter {
+    text-align: center;
+    
+}
+
+.newletter h1 {
+    font-size: 4vw;
+}
+
+.newletter p {
+    font-size: 2vw;
+}
+
+.search {
+    border: solid 2px #1D232C;
+    width: 60%;
+    padding: 5px;
+    display: flex;
+    padding: 5px;
+    margin-left: 20%;
+}
+
+.search input {
+    border: none;
+    width: 100%;
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.newletter-button {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #1D232C;
+    color: white;
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: #1D232C;
+    padding: 20px;
+    color: white;
+    margin-top: 30px;
+    
+
+}
+
+.footer h1 {
+    font-size: 4vw;
+    margin: 10px;
+}
+
+.footer p {
+    font-size: 2vw;
+    margin: 10px;
+}
+
+.social-media {
+    display: flex;
+    gap: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    #menu {
+        display: inline;
+    }
+
+    .navbar__menu-details {
+        display: none;
+    }
+
+    
+}
+
+/* collection page */
+.collectionpage{
+    padding: 20px;
+    display: flex;
+}
+.filters{
+    width: 20%;
+    border-right: solid black 2px;
+    font-size: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-right: 10px;
+}
+.ocassion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.dresscollection{
+    padding: 20px;
+}
+.searchcollection{
+    border: solid 1px black;
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+
+    
+}
+.searchcollection input{
+    width: 96%;
+    
+    border: none;
+    
+}
+.searchcollection input:focus{
+    outline: none;
+}
+
+/* collection dress  */
+
+.clothcollection{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.clothcollection__list{
+    margin-top: 2vw;
+}
+.clothcollection__list img{
+    width: 20vw;
+
+}
+
+.clothcollection__list h2{
+    font-size: 1.8vw;
+}
+.clothcollection__list p{
+    font-size: 1vw;
+}
+
+
